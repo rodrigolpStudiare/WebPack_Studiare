@@ -22,3 +22,7 @@ Useful Links (recommended order)
   - [Setup the Compitation](http://webpack.github.io/docs/tutorials/getting-started/)
   
   - [Getting Started](http://webpack.github.io/docs/usage.html)
+
+## Webpack with Rails
+- [How to use webpack with Rails](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/)
+- 
