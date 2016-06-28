@@ -24,5 +24,4 @@ Useful Links (recommended order)
   - [Getting Started](http://webpack.github.io/docs/usage.html)
 
 ## Webpack with Rails
-- [How to use webpack with Rails](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/)
-- 
+- [How to use?](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/)
