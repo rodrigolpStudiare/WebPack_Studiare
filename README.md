@@ -87,7 +87,7 @@ It's a framework that takes modules with dependencies and generates static asset
     - **Install webpack globally**: Do that to get access for `webpack command line tool`.
   
   - Configure Webpack
-    - ...
+    - **Create a configuration file** `webpack.config.js`: We use this file to control the project entry points. Below we have a minimum configuration. 
     ```
     var path = require('path');
     var webpack = require('webpack');
