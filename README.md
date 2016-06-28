@@ -131,4 +131,18 @@ It's a framework that takes modules with dependencies and generates static asset
     ];
     ```
   - Running webpack
-    - Run this command `$ webpack -d --display-reasons --display-chunks --progress` in your terminal. 
+  
+    - Run this command `$ webpack -d --display-reasons --display-chunks --progress` in your terminal.
+    - If everything is right you will see:
+    ```
+    Hash: cfee07d10692c4ab1eeb
+    Version: webpack 1.4.14
+    Time: 548ms
+        Asset    Size  Chunks             Chunk Names
+    bundle.js  254088       0  [emitted]  main
+    bundle.js.map  299596       0  [emitted]  main
+    chunk    {0} bundle.js, bundle.js.map (main) 244421 [rendered]
+    [0] ./app/frontend/javascripts/entry.js 73 {0} [built]
+     + 2 hidden modules
+    ```
+    - More details about this installation procedure you can find [here](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/).
