@@ -83,7 +83,8 @@ It's a framework that takes modules with dependencies and generates static asset
       "dependencies": {}
     }
     ```
-
+    - **Install with node npm** `npm install`
+    - **Install webpack globally**: Do that to get access webpack for `webpack command line tool`.
 
 
 
