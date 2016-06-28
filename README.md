@@ -120,4 +120,13 @@ It's a framework that takes modules with dependencies and generates static asset
       modulesDirectories: [ 'node_modules'],
     };
     ```
-    - ....
+    - **Add plugins** as you need:
+    ```
+    config.plugins = [
+      // we can use this plugin to teach webpack how to find module entry points for bower files, for example.
+      // as these may not have a package.json file
+      new webpack.ResolverPlugin([
+        new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('.bower.json', ['main'])
+      ])
+    ];
+    ```
