@@ -84,7 +84,21 @@ It's a framework that takes modules with dependencies and generates static asset
     }
     ```
     - **Install with node npm** `npm install`
-    - **Install webpack globally**: Do that to get access webpack for `webpack command line tool`.
+    - **Install webpack globally**: Do that to get access for `webpack command line tool`.
+  
+  - Configure Webpack
+    - ...
+    ```
+    var path = require('path');
+    var webpack = require('webpack');
+
+    var config = module.exports = {
+      // the base path which will be used to resolve entry points
+      context: __dirname,
+      // the main entry point for our application's frontend JS
+      entry: './app/frontend/javascripts/entry.js',
+    };
+    ```
 
 
 
