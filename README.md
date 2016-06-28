@@ -14,6 +14,10 @@ Useful Links (recommended order)
 - [Começando com o Browserify](http://diogo.nu/comecando-com-o-browserify/)
 - [Modularizando Frontend JavaScript](https://udgwebdev.com/modularizando-frontend-javascript-com-browserify)
 
+## ReactJS on Rails Project
+- [A guide for Rails developers](https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers)
+- [ReacJS with Browserify and Npm](http://codeutopia.net/blog/2016/01/25/getting-started-with-npm-and-browserify-in-a-react-project/)
+
 ## Webpack
 - [webpack oficial site](http://webpack.github.io/)
 
@@ -25,7 +29,4 @@ Useful Links (recommended order)
 
 ## Webpack with Rails
 - [How to use?](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/)
-
-
-## ReactJS on Rails Project
-- [A guide for Rails developers](https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers)
+- [Configuration for Rich Client](http://www.railsonmaui.com/blog/2014/10/03/integrating-webpack-and-the-es6-transpiler-into-an-existing-rails-project/)
