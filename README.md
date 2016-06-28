@@ -19,4 +19,6 @@ Useful Links (recommended order)
 
   - [Code Splitting](http://webpack.github.io/docs/code-splitting.html)
   
-  - [Installation](http://webpack.github.io/docs/usage.html)
+  - [Setup the Compitation](http://webpack.github.io/docs/tutorials/getting-started/)
+  
+  - [Getting Started](http://webpack.github.io/docs/usage.html)
