@@ -60,7 +60,8 @@ It's a framework that takes modules with dependencies and generates static asset
 #### Installation Process
 
   - Preparing Rails for webpack
-    - **Untangling Sprockets**: Empty out your `app/assets/javascripts` directory.
+    - **Untangling Sprockets**: Empty out your `app/assets/javascripts` directory. We’ll be configuring webpack to output its bundles here, so they can then be picked up by Sprockets. All our actual JS code will live elsewhere.
+    - **Add this to your** `.gitignore`: ...
 
 
 
