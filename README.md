@@ -110,4 +110,14 @@ It's a framework that takes modules with dependencies and generates static asset
       publicPath: '/assets',
     };
     ```
-
+    - **Add the resolve property**: 
+    ```
+    config.resolve = {
+      // tell webpack which extensions to auto search when it resolves modules. With this,
+      // you'll be able to do `require('./utils')` instead of `require('./utils.js')`
+      extensions: ['', '.js'],
+      // by default, webpack will search in `web_modules` and `node_modules`.
+      modulesDirectories: [ 'node_modules'],
+    };
+    ```
+    - ....
