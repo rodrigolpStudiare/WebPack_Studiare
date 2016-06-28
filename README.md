@@ -55,4 +55,15 @@ It's a framework that takes modules with dependencies and generates static asset
 #### Why not use webpack:
 - It requires a lot of code adaptation, which is so cumbersome as greater as your project.
 - Because webpack is a node.js application, you’ll need node, bower or anything else installed to run.
-- ...
+- The official documentation is obscure. You need to read a lot more to have a clear understanding of the subject.
+
+#### Installation Process
+
+
+
+
+
+
+
+
+
