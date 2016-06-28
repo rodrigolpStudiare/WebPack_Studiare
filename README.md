@@ -25,3 +25,7 @@ Useful Links (recommended order)
 
 ## Webpack with Rails
 - [How to use?](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/)
+
+
+## ReactJS on Rails Project
+- [A guide for Rails developers](https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers)
