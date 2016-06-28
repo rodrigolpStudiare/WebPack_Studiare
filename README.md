@@ -30,3 +30,7 @@ Useful Links (recommended order)
 ## Webpack with Rails
 - [How to use?](http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/)
 - [Configuration for Rich Client](http://www.railsonmaui.com/blog/2014/10/03/integrating-webpack-and-the-es6-transpiler-into-an-existing-rails-project/)
+
+## React and Rails Integration Using Webpack
+- [Motivation](https://www.netguru.co/blog/react-rails-webpack)
+- [Npm generator-rails-react-webpack](https://www.npmjs.com/package/generator-rails-react-webpack)
