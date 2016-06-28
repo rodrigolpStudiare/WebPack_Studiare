@@ -17,7 +17,6 @@ Useful Links (recommended order)
 ## Webpack
 - [webpack oficial site](http://webpack.github.io/)
 
-  #### Code Splitting
-- [CODE SPLITTING](http://webpack.github.io/docs/code-splitting.html)
-
-  #### Installation
+  - [Code Splitting](http://webpack.github.io/docs/code-splitting.html)
+  
+  - [Installation](http://webpack.github.io/docs/usage.html)
