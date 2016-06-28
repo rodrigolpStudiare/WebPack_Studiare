@@ -64,7 +64,25 @@ It's a framework that takes modules with dependencies and generates static asset
     - **Add this to your** `.gitignore`: `/app/assets/javascripts`. We need this for the deploy step.
   
   - New folder for JavaScript
-    - 
+    - **Create new folder path** `app/frontend/javascripts`: Will be the folder for your actual javaScrict, entries and anything else.
+  
+  - Install Webpack
+    - **Create a package manager file**: Because webpack is a node.js application, we’ll need a `package.json` file in our Rails root. See an example below.
+    ```
+    {
+      "name": "my-rails-app",
+      "description": "my-rails-app",
+      "version": "1.0.0",
+      "devDependencies": {
+        "webpack": "~1.4.13",
+        "expose-loader": "~0.6.0",
+        "imports-loader": "~0.6.3",
+        "exports-loader": "~0.6.2",
+        "lodash": "~2.4.1"
+      },
+      "dependencies": {}
+    }
+    ```
 
 
 
