@@ -130,3 +130,5 @@ It's a framework that takes modules with dependencies and generates static asset
       ])
     ];
     ```
+  - Running webpack
+    - Run this command `$ webpack -d --display-reasons --display-chunks --progress` in your terminal. 
