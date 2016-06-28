@@ -87,7 +87,7 @@ It's a framework that takes modules with dependencies and generates static asset
     - **Install webpack globally**: Do that to get access for `webpack command line tool`.
   
   - Configure Webpack
-    - **Create a configuration file** `webpack.config.js`: We use this file to control the project entry points. Below we have a minimum configuration. 
+    - **Create a configuration file** `webpack.config.js`: We use this file to control the project entry points. Below we have a minimum configuration with just one entry file. 
     ```
     var path = require('path');
     var webpack = require('webpack');
@@ -99,6 +99,15 @@ It's a framework that takes modules with dependencies and generates static asset
       entry: './app/frontend/javascripts/entry.js',
     };
     ```
-
-
+    - **Add an output** (the bundle file): Here you will set the bundle output file.  
+    ```
+    config.output = {
+      // this is our app/assets/javascripts directory, which is part of the Sprockets pipeline
+      path: path.join(__dirname, 'app', 'assets', 'javascripts'),
+      // the filename of the compiled bundle, e.g. app/assets/javascripts/bundle.js
+      filename: 'bundle.js',
+      // if the webpack code-splitting feature is enabled, this is the path it'll use to download bundles
+      publicPath: '/assets',
+    };
+    ```
 
